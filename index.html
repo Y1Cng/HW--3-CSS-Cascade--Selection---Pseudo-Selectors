@@ -2,9 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <title>Productivity Tracker - To Do List</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header id="main-header">
+      <h1>My Productivity Tracker</h1>
+      <p>Organize your tasks and boost your efficiency</p>
+    </header>
+    <main>
+      <article id="todo">
+        <h2>To Do's</h2>
+        <ul class="todo">
+          <li>Complete CSS homework</li>
+          <li>Complete FIP</li>
+          <li>Choose GNED</li>
+          <li>Reply messages</li>
+          <li>Fast</li>
+          <li>Buy groceries</li>
+        </ul>
+      </article>
+      <article id="inprogress">
+        <h2>In Progress</h2>
+        <ul class="inprogress">
+          <li>
+            <input type="checkbox" /><span> Finish presentation slides</span>
+          </li>
+          <li><input type="checkbox" /><span> Create digital art</span></li>
+          <li><input type="checkbox" /><span> Debug code</span></li>
+          <li><input type="checkbox" /><span> Fast</span></li>
+          <li><input type="checkbox" /><span> Print out resume</span></li>
+          <li><input type="checkbox" /><span> Apply for a job</span></li>
+        </ul>
+      </article>
+      <article id="done">
+        <h2>Done</h2>
+        <ul class="done">
+          <li><input type="checkbox" /><span> Morning workout</span></li>
+          <li><input type="checkbox" /><span> Laundry</span></li>
+          <li><input type="checkbox" /><span> Pay off credit card</span></li>
+          <li><input type="checkbox" /><span> Pay rent</span></li>
+          <li><input type="checkbox" /><span> Call mom</span></li>
+          <li><input type="checkbox" /><span> Water plants</span></li>
+        </ul>
+      </article>
+    </main>
+  </body>
 </html>
